@@ -1,2 +1,3 @@
 local program = require("ReactorManager/program")
-program:init()
+local _program = program:new()
+_program:init()
